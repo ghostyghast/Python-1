@@ -8,7 +8,9 @@ def ft_invert(array):
 
 def ft_red(array):
     """turns the given image red"""
-    return
+    n_array = array
+    n_array[:, :] = [255, 0, 0]
+    return n_array
 
 def ft_green(array):
     """turns the given image green"""
